@@ -3,25 +3,22 @@
 }
 
 .container{
+    width: 620px;
+    height: 620px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    width:500px;
-    border-style: solid;
-   
-
+    flex-wrap: wrap;
+    background-color: #fff;
+    border: 8px solid black ;
 }
 
 .row{
     display: flex;
-    text-align: center;
-    justify-content: center;
-   
+    flex-direction: row;
+    flex: 1 auto;
+  
+        
 }
-
-
 
 body{
     display: flex;
@@ -31,10 +28,9 @@ body{
     gap:20px;
 }
 
-.column{
-    min-height: 20px;
-    min-width: 20px;
-    border-style: black;
+.cell{
+    
+    flex: 1 auto;
+    cursor: crosshair;
     
 }
-
